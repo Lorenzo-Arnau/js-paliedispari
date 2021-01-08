@@ -2,13 +2,13 @@
 // Chiedere all’utente di inserire una parola
 var parolaUtente = prompt('inserisci una parola per vedere se è palindroma');
 //creo ciclo per la lunghezza della parola che la divide in caratteri
-var listaLettere=[];
 for (var i = 0; i < parolaUtente.length; i++) {
   listaLettere.push(parolaUtente[i]);
 }
 console.log(listaLettere);
 //Creare una funzione per capire se la parola inserita è palindroma
 function isPalindroma(parola) {
+  var listaLettere=[];
   var reverse = listaLettere.reverse();
   console.log(reverse);
   var sommaLettere="";
